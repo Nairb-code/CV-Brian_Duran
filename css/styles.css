@@ -1,9 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 img{
     width: 100px;
     height: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    border: #6894e693 3px solid;
+    box-shadow: 0px 10px 10px -6px black;
+}
+.p10-top{
+    padding-top: 10px;
+}
+.p10-left{
+    padding-left: 10px;
+}
+.p10-bottom{
+    padding-bottom: 10px;
 }
 body{
     height: 100%;
+    /*font-family: 'Koulen', cursive;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Smooch', cursive;*/
 }
 .centrar{
     text-align: center;
@@ -16,8 +38,24 @@ body{
 }
 header{
     background-color:#E6E6E6;
+    background-image: url('../img/background\ 4.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+header p a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+header #sobreMi{
+    align-self: center;
+    position: relative;
+    left: 500px;
+}
 h1, h2{
     background-color:#C4C4C4;
     color: #005677;
@@ -28,6 +66,9 @@ h1, h2{
 }
 h1{
     font-weight: 700;
+}
+.margin-top-10{
+    margin-top: 10px;
 }
 .margin-left-40{
     margin-left: 40px;
@@ -52,7 +93,26 @@ footer p{
     font-weight: 700;
     color: white;
 }
-.iconos{
+.iconos a i{
     color:white;
     font-size: 18px;
+}
+.text-sobre-mi{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.text-sobre-mi:hover{
+    color: #658896;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    content: "Reference: ";
+}
+.author{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 3px;
 }
